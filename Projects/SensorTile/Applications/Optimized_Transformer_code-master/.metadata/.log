@@ -1,0 +1,44 @@
+!SESSION 2023-11-18 02:13:38.673 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-11-18 02:14:10.975
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-11-18 02:14:10.980
+!MESSAGE Log4j2 initialized with config file /home/gaurav/Optimized_Transformer_code-master/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-11-18 02:14:23.063
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 368 2023-11-18 02:16:02.537
+!MESSAGE Resource '/STM32CubeIDE' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/STM32CubeIDE' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:397)
+	at com.st.stm32cube.common.projectcreation.core.ProjectUtilities.hasProjectNature(ProjectUtilities.java:164)
+	at com.st.stm32cube.common.projectcreation.core.ProjectUtilities.hasProjectNature(ProjectUtilities.java:220)
+	at com.st.stm32cube.ide.mcu.analytics.core.MCUAnalyticsUtils.getRootProject(MCUAnalyticsUtils.java:176)
+	at com.st.stm32cube.ide.mcu.analytics.core.MCUAnalyticsRegister.send(MCUAnalyticsRegister.java:467)
+	at com.st.stm32cube.ide.mcu.analytics.core.MCUAnalyticsRegister.lambda$0(MCUAnalyticsRegister.java:340)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-18 02:16:52.379
+!MESSAGE Indexed 'STSW-STLKT01-AudioLoop' (11 sources, 94 headers) in 45.2 sec: 3,857 declarations; 5,320 references; 63 unresolved inclusions; 4 syntax errors; 423 unresolved names (4.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-18 02:21:11.929
+!MESSAGE Indexed 'STSW-STLKT01-AudioLoop' (11 sources, 94 headers) in 17 sec: 3,857 declarations; 5,320 references; 63 unresolved inclusions; 4 syntax errors; 423 unresolved names (4.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-18 02:36:08.579
+!MESSAGE Indexed 'STSW-STLKT01-AudioLoop' (11 sources, 94 headers) in 21.9 sec: 3,857 declarations; 5,320 references; 63 unresolved inclusions; 4 syntax errors; 423 unresolved names (4.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-18 03:04:47.358
+!MESSAGE Indexed 'STSW-STLKT01-AudioLoop' (143 sources, 434 headers) in 101 sec: 68,224 declarations; 158,974 references; 67 unresolved inclusions; 51 syntax errors; 1,533 unresolved names (0.67%)

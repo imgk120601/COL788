@@ -1,0 +1,7 @@
+02:52:29 **** Incremental Build of configuration Release for project STSW-STLKT01-AudioLoop ****
+make all 
+tensorflow/tensorflow/lite/micro/testing/test_conv_model.d:1: *** target pattern contains no '%'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+02:52:30 Build Failed. 1 errors, 0 warnings. (took 1s.259ms)
+
