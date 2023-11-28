@@ -1,2 +1,0 @@
-/home/gaurav/STSW-STLKT01_V2.5.0/Projects/SensorTile/Applications/Optimized_Transformer_code-master/STM32CubeIDE/tensorflow/tensorflow/lite/micro/kernels/ethosu.cc:25:21:TfLiteRegistration* tflite::ops::micro::custom::Register_ETHOSU()	4	static
-/home/gaurav/STSW-STLKT01_V2.5.0/Projects/SensorTile/Applications/Optimized_Transformer_code-master/STM32CubeIDE/tensorflow/tensorflow/lite/micro/kernels/ethosu.cc:27:13:const char* tflite::ops::micro::custom::GetString_ETHOSU()	4	static
